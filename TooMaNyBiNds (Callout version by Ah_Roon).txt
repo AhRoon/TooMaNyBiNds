@@ -1,0 +1,69 @@
+// TooMaNyBiNds Final (Callout version by Ah_Roon)
+// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8471
+// Made By: myst & Ah_Roon
+
+// =====================================================================
+// Binds
+// Only edit this section!
+//
+// The keypad keys after the say command in each alias indicates which key the alias is binded to.
+// =====================================================================
+
+alias KP1 "say_team Enemy ahead!; voicemenu 1 0"
+alias KP2 "say_team Fall back!; voicemenu 2 5"
+alias KP3 "say_team Move out!; voicemenu 0 3"
+alias KP4 "say_team Need sentry here!; voicemenu 1 5"
+alias KP5 "say_team Need dispenser here!; voicemenu 1 4"
+alias KP6 "say_team Need teleporter here!; voicemenu 1 3"
+alias KP7 "say_team I need some help!; voicemenu 2 0"
+alias KP8 "say_team Need some MEDIC over here!; voicemenu 0 0"
+alias KP9 "say_team Charge it, doc!; voicemenu 1 6"
+alias KP10 "say_team Enemy Sniper ahead! Heads Up!; voicemenu 1 0"
+alias KP11 "say_team Enemy Spy ahead! Watch your back!; voicemenu 1 1"
+alias KP12 "say_team Enemy Sentry ahead!; voicemenu 1 2"
+alias KP13 "say_team Enemy UBER Incoming!; voicemenu 1 0"
+alias KP14 "say_team (CP) Attack enemy capture point!; voicemenu 2 0"
+alias KP14 "say_team (CP) Defend our capture point!; voicemenu 2 0"
+alias KP17 "say_team That Medic is a Spy!; voicemenu 1 1"
+alias KP18 "say_team That Sniper is a Spy!; voicemenu 1 1"
+alias KP19 "say_team That Spy ain't one of us!; voicemenu 1 1"
+alias KP20 "say_team That Demoman is a Spy!; voicemenu 1 1"
+alias KP21 "say_team That Heavy is a Spy!; voicemenu 1 1"
+alias KP22 "say_team That Engineer is a Spy!; voicemenu 1 1"
+alias KP23 "say_team That Scout is a Spy!; voicemenu 1 1"
+alias KP24 "say_team That Soldier is a Spy!; voicemenu 1 1"
+alias KP25 "say_team That Pyro is a Spy!; voicemenu 1 1"
+alias KP26 "say_team (MvM) Team, Defend our Bomb!; voicemenu 2 0"
+alias KP27 "say_team (CTF) Capture the enemy Intelligence!; voicemenu 2 0"
+alias KP28 "say_team (CTF) Defend our Intelligence!; voicemenu 2 0"
+alias KP29 "lennytaunt"
+alias KP30 "say Easy peasy lemon squeezy!"
+alias KP31 "say_team (Medic) UBER Ready!; voicemenu 1 7"
+bind "KP_INS" ToggleTooMaNyBiNds // replace "KEY" to a key you wish to toggle TooMaNyBiNds
+
+alias lennytaunt "say ( ͡° ͜ʖ ͡°)"
+
+// =====================================================================
+// DO NOT TOUCH THIS SECTION!
+// =====================================================================
+bind "KP_END" KP1
+bind "KP_DOWNARROW" KP2
+bind "KP_PGDN" KP3
+bind "KP_LEFTARROW" KP4
+bind "KP_5" KP5
+bind "KP_RIGHTARROW" KP6
+bind "KP_HOME" KP7
+bind "KP_UPARROW" KP8
+bind "KP_PGUP" KP9;
+bind "KP_SLASH" KP10
+bind "KP_MULTIPLY" KP11
+bind "KP_MINUS" KP12
+bind "KP_PLUS" KP13
+bind "KP_ENTER" KP14
+bind "KP_DEL" KP15
+
+alias ToggleTooMaNyBiNds TooMaNyBiNdsON
+alias TooMaNyBiNdsON "bind KP_END KP17; bind KP_DOWNARROW KP18; bind KP_PGDN KP19; bind KP_LEFTARROW KP20; bind KP_5 KP21; bind KP_RIGHTARROW KP22; bind KP_HOME KP23; bind KP_UPARROW KP24; bind KP_PGUP KP25; bind KP_SLASH KP26; bind KP_MULTIPLY KP27; bind KP_MINUS KP28; bind KP_PLUS KP29; bind KP_ENTER KP30; bind KP_DEL KP31; echo TooMaNyBiNds is now Turned On; alias ToggleTooMaNyBiNds TooMaNyBiNdsOFF"
+alias TooMaNyBiNdsOFF "bind KP_END KP1; bind KP_DOWNARROW KP2; bind KP_PGDN KP3; bind KP_LEFTARROW KP4; bind KP_5 KP5; bind KP_RIGHTARROW KP6; bind KP_HOME KP7; bind KP_UPARROW KP8; bind KP_PGUP KP9; bind KP_SLASH KP10; bind KP_MULTIPLY KP11; bind KP_MINUS KP12; bind KP_PLUS KP13; bind KP_ENTER KP14; bind KP_DEL KP15; echo TooMaNyBiNds is now Turned Off; alias ToggleTooMaNyBiNds TooMaNyBiNdsON"
+
+echo TooMaNyBiNds Final (Callout version by Ah_Roon) has successfully loaded!
